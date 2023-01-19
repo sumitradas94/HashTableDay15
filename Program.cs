@@ -19,6 +19,10 @@
             }
             int Frequency = linked_hash_map.Get("to");
             Console.WriteLine("Frquency of word in mentioned statement is : " + Frequency);
+            Frequency = linked_hash_map.Get("are");
+            Console.WriteLine("\"are\" comes {0} times in the given paragraph", Frequency);
+            Frequency = linked_hash_map.Get("they");
+            Console.WriteLine("\"they\" comes {0} times in the given paragraph", Frequency);
         }
     }
 }
